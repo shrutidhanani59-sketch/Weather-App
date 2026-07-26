@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("wather.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    font-family: calibri;
+    color: white;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    font: bold;
+    padding: 20px;
+}
+.degree h1{
+   font-size: 60px;
+}
+.bottom{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+   padding-top: 23rem;
+      margin-top:auto;
+    padding:30px;
+}
+.city{
+    padding-top: 2rem;
+    font-size: 20px;
+}
+span {
+    font-size: 15px;
+}
+.city h2
+{
+    line-height: 20px;
+
+}
+.img p
+{
+    font-size: 30px;
+    padding-top: 2rem;
+}
+.rightPart{
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    width: 30rem;
+}
+input
+{
+    background-color: transparent;
+    border: none;
+    color: rgb(245, 245, 245);
+}
+::placeholder
+{
+    color: rgb(255, 255, 255);
+
+}
+input:focus{
+    outline: none;
+}
+.rightPart p{
+    line-height: 10px;
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr
+{
+    width: 25rem;
+}
+.last
+{
+    text-align: center;
+    margin-top: 1rem;
+}
+.search
+{
+    display: flex;
+    gap: 15rem;
+}
+.search p
+{
+    background-color: rgb(36, 34, 34);
+}
+.leftPart{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    min-height:100vh;
+}
+
+@media (max-width:768px){
+    /* .rightPart
+    {
+
+    } */
+    .wrapper{
+        flex-direction:column;
+    }
+
+    .rightPart{
+        width:100%;
+        border-radius:25px 25px 0 0;
+        color: black;
+    }
+
+    .bottom{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:10px;
+        padding:20px;
+        margin-top:300px;
+    }
+
+    .degree h1{
+        font-size:55px;
+    }
+
+    .city h2{
+        font-size:26px;
+    }
+
+    .img p{
+        font-size:40px;
+    }
+
+    .search{
+        gap:10px;
+    }
+
+    .search input{
+        width:100%;
+        color: black;
+    }
+
+    .detail{
+        font-size:18px;
+    }
+
+    .last{
+        font-size:14px;
+        text-align:center;
+    }
+    ::placeholder
+{
+    color: rgb(0, 0, 0);
+
+}
+}
