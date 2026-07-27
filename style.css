@@ -103,7 +103,16 @@ hr
     justify-content:space-between;
     min-height:100vh;
 }
-
+h3
+{
+    font-size: 12px;
+    margin-top: 7px;
+}
+.text
+{
+    font-size: 10px !important;
+    margin-top: -40px;
+}
 @media (max-width:768px){
     /* .rightPart
     {
