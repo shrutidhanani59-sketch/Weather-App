@@ -5,7 +5,7 @@
 }
 
 .wrapper{
-    background-image: url("../imges/wather.png");
+    background-image: url("../imges/i1015.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,7 +71,7 @@ input:focus{
     outline: none;
 }
 .rightPart p{
-    line-height: 10px;
+    line-height: 5px;
 }
 .detail{
     display: flex;
