@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-body{
-    background-image: url("wather.png");
+.wrapper{
+    background-image: url("../imges/wather.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
