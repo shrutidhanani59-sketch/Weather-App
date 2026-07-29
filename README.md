@@ -56,3 +56,6 @@ script.js
 ![img2](imges/screenshort2.png)
 ![img3](imges/screenshort3.png)
 
+## 📷 video
+
+https://drive.google.com/file/d/13KihuDvcDEXBVN6F4LMNwNxtjt68PTxJ/view?usp=sharing
